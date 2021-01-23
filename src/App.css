@@ -1,0 +1,25 @@
+.forecastheader {
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.location {
+  font-size: 15px;  
+}
+.wrapper {
+  width: 100%;
+  border: 1px solid black;
+  text-align: center;
+  background: rgb(174, 174, 236);
+}
+
+@media only screen and (min-width: 768px){
+  .forecastheader {
+    font-size: 50px;
+  }
+
+  .location {
+    font-size: 20px;  
+  }
+
+}  
